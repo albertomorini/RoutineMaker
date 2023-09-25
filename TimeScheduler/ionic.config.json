@@ -1,0 +1,7 @@
+{
+  "name": "TimeScheduler",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
