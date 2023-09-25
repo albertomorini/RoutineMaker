@@ -1,0 +1,11 @@
+.TODAY {
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+}
+
+.HeaderDay {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

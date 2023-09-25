@@ -1,0 +1,7 @@
+{
+  "name": "RoutineMaker",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
