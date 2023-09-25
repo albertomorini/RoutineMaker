@@ -47,11 +47,13 @@ const SingleDay = (props) => {
                     {
                         Activities?.map(s => (
                             <IonCard className="ion-padding" color={s.Color}>
-                                <IonCardTitle>{s.Title}</IonCardTitle>
                                 <IonItem>
-                                    <IonReorder slot="end" />
-                                    <IonCardSubtitle>{s.From}---{s.To}</IonCardSubtitle>
-
+                                <IonCheckbox mode="ios" size="large"/>
+                                <IonCardTitle>{s.Title}</IonCardTitle>
+                                <br/>
+                                <br/>
+                                <IonReorder slot="end" />
+                                <IonCardSubtitle>{s.From}---{s.To}</IonCardSubtitle>
                                 </IonItem>
                             </IonCard>
                         ))
